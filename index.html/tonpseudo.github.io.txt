@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI Studio France</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,sans-serif;
+}
+
+body{
+    background:#f5f7fa;
+    color:#222;
+}
+
+header{
+    background:linear-gradient(135deg,#007bff,#00c6ff);
+    color:white;
+    text-align:center;
+    padding:80px 20px;
+}
+
+header h1{
+    font-size:3em;
+}
+
+header p{
+    margin-top:15px;
+    font-size:1.2em;
+}
+
+.btn{
+    display:inline-block;
+    margin-top:25px;
+    background:white;
+    color:#007bff;
+    padding:15px 30px;
+    border-radius:30px;
+    text-decoration:none;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+.btn:hover{
+    transform:scale(1.05);
+}
+
+section{
+    padding:60px 20px;
+    max-width:1200px;
+    margin:auto;
+}
+
+.services{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+}
+
+.card{
+    background:white;
+    padding:25px;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+    text-align:center;
+}
+
+.card h3{
+    color:#007bff;
+    margin-bottom:10px;
+}
+
+.price{
+    font-size:2em;
+    font-weight:bold;
+    margin:15px 0;
+}
+
+.contact{
+    text-align:center;
+}
+
+footer{
+    background:#111;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>AI Studio France</h1>
+    <p>Création de logos et amélioration de photos par IA</p>
+
+    <a class="btn" href="#services">
+        Voir les services
+    </a>
+</header>
+
+<section id="services">
+    <h2 style="text-align:center;margin-bottom:40px;">
+        Nos Services
+    </h2>
+
+    <div class="services">
+
+        <div class="card">
+            <h3>Logo Simple</h3>
+            <div class="price">5€</div>
+            <p>Logo rapide pour entreprise, association ou projet.</p>
+        </div>
+
+        <div class="card">
+            <h3>Logo Premium</h3>
+            <div class="price">10€</div>
+            <p>Logo professionnel avec plusieurs propositions.</p>
+        </div>
+
+        <div class="card">
+            <h3>Retouche Photo IA</h3>
+            <div class="price">1€</div>
+            <p>Amélioration de qualité, netteté et couleurs.</p>
+        </div>
+
+    </div>
+</section>
+
+<section class="contact">
+    <h2>Commander</h2>
+
+    <p style="margin-top:20px;">
+        Contact : lecoqcomelepro@gmail.com
+    </p>
+
+    <br>
+
+    <a class="btn"
+       href="https://paypal.me/Comelecoq"
+       target="_blank">
+       Payer avec PayPal
+    </a>
+
+</section>
+
+<footer>
+    © 2026 AI Studio France
+</footer>
+
+</body>
+</html>
